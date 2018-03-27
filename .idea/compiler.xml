@@ -7,8 +7,6 @@
     <bytecodeTargetLevel>
       <module name="phone-matcher_main" target="1.8" />
       <module name="phone-matcher_test" target="1.8" />
-      <module name="phonematcher_main" target="1.8" />
-      <module name="phonematcher_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
