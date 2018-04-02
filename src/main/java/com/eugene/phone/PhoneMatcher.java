@@ -14,6 +14,12 @@ public class PhoneMatcher {
         phoneMatcherService = new PhoneMatcherService();
     }
 
+    /**
+     * Phone Matcher is a program that brings possible word matches from a dictionary for a list of provided phone numbers
+     * The program can read the numbers via console, or from files if given as command-line arguments. There is a default
+     * dictionary, but the user can provide his/her own dictionary via system property if required.
+     * @param args
+     */
     public static void main(String[] args) {
 
         PhoneMatcher phoneMatcher = new PhoneMatcher();
